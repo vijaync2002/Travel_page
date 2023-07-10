@@ -1,0 +1,100 @@
+#hero{
+    height: 800px;
+    background-image: url("ocean1.jpg");
+    /* background-repeat: repeat-x; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 800px; */
+    background-position: center;
+    background-size: cover;    
+}
+
+#hero-content{
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#hero-content h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Raleway",sans-serif;
+    margin: 0;
+}
+
+#hero-content p{
+    color: azure;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#hero-content a{
+    text-decoration: none;
+    background-color: rgb(120, 103, 34);
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover{
+background-color: rgb(228, 215, 32);
+}
+
+#highlight {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(222, 205, 193), rgb(210, 128, 70));
+}
+
+#highlight h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59,65,64);
+    margin: 24px 0;
+}
+#dest{
+    display: flex;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.dest{
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.dest p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(124, 123, 123);
+    margin: 18px;
+}
+.dest img{
+    height: 200px;
+    width: 250px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.dest strong{
+    color: rgb(62, 178, 231);
+}
+
+.dest strong:hover{
+    color:  rgb(124, 123, 123);
+}
+
